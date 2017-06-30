@@ -1,0 +1,28 @@
+<LinearLayout
+	android:orientation = "vertical"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	android:background = "@android:color/darker_gray">
+
+	<TextView
+		android:text = "VIP List"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:background = "#4CAF50"
+		android:textSize = "24sp"	/>
+
+	<TextView
+		android:text = "Raghav"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:background = "#4CAF50"
+		android:textSize = "24sp"	/>
+
+	<TextView
+		android:text = "Nidhi"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:background = "#4CAF50"
+		android:textSize = "24sp"	/>
+		
+</LinearLayout>

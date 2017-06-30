@@ -1,0 +1,8 @@
+<TextView
+	android:text = "Happy Birthday!"
+	android:background = "#2196F3"
+	android:textColor = "#AED591"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textSize = "45sp"
+/>
