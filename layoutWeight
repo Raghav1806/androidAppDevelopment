@@ -1,0 +1,33 @@
+<LinearLayout
+
+	android:orientation = "vertical"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"	>
+
+	<TextView
+		android:text = "Tom"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "1"
+		android:textSize = "24sp"
+		android:background = "#4CAF50"	/>
+
+
+	<TextView
+		android:text = "Tim"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "1"
+		android:textSize = "24sp"
+		android:background = "#4CAF50"	/>
+
+	<TextView
+		android:text = "Todd"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "1"
+		android:textSize = "24sp"
+		android:background = "#4CAF50"	/>
+
+</LinearLayout>
+

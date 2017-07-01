@@ -1,0 +1,31 @@
+<LinearLayout
+
+	android:orientation = "vertical"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"	>
+
+	<ImageView
+		android:src = "@drawable/ocean"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:scaleType = "centerCrop"
+		android:layout_weight = "1"	/>
+
+	<TextView
+		android:text = "You're invited!"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:textColor = "@android:color/white"
+		android:textSize = "59sp"
+		android:background = "#009698"	/>
+
+	
+	<TextView
+		android:text = "Bonfire at the beach"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:textColor = "@android:color/white"
+		android:textSize = "40sp"
+		android:background = "#009698"	/>
+
+</LinearLayout>
