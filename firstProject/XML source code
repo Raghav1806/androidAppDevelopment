@@ -1,0 +1,61 @@
+<RelativeLayout
+    
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity" >
+    
+    <ImageView
+        android:id = "@+id/rainbow_image"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:src = "@drawable/rainbow"
+        android:scaleType = "centerCrop"	/>
+    
+    <TextView
+        android:id = "@+id/first_point"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "3 golden steps for android developer:"
+        android:layout_alignParentTop = "true"
+       	android:textSize="35sp"
+        android:padding = "16dp"
+        android:textColor = "@android:color/white"
+        android:textStyle = "bold"	/>
+    
+    <TextView
+        android:id = "@+id/second_point"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/first_point"
+        android:text = "Practice"
+       	android:textSize="25sp"
+        android:padding = "20dp"
+        android:textColor = "@android:color/white"
+       	android:textStyle = "bold|italic"	
+        />
+    
+    <TextView
+        android:id = "@+id/third_point"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/second_point"
+        android:text = "Repeat"
+       	android:textSize="25sp"
+        android:padding = "20dp"
+        android:textColor = "@android:color/white"
+       	android:textStyle = "bold|italic"	
+        />
+    
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/third_point"
+        android:text = "Follow above 2 points for rest of your life!"
+       	android:textSize="25sp"
+        android:padding = "20dp"
+        android:textColor = "@android:color/white"
+       	android:textStyle = "bold|italic"	
+        />
+        
+    
+</RelativeLayout>
