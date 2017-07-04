@@ -1,0 +1,42 @@
+<LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"	>
+	
+    <ImageView
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "10"
+        android:src = "@drawable/cake"
+        android:scaleType = "centerCrop"	/>
+    
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "2"
+        android:text = "CAKEBUCKS"
+        android:textSize = "30sp"
+        android:background = "#E8EAF6"
+        android:gravity = "center"
+        android:padding = "16dp"	/>
+    
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "1"
+        android:text = "Address: NP 83/A, Pitampura, Delhi"
+        android:textSize = "20sp"
+        android:gravity = "center"
+        android:background = "#C5CAE9"
+        android:padding = "16dp"	/>
+       
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "1"
+        android:text = "Phone No. 98XXXXX989"
+        android:textSize = "20sp"
+        android:gravity = "center"
+        android:background = "#E8EAF6"
+        android:padding = "10dp"	/>
+</LinearLayout>
